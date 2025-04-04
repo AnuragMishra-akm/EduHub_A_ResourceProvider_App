@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/anchor"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+<!--   //firstRow-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="167dp"
+        android:layout_margin="25dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appcard"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="20dp">
+
+
+            <TextView
+                android:id="@+id/apptext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:shadowColor="@color/black"
+                android:shadowDx="1.5"
+                android:shadowDy="1.3"
+                android:shadowRadius="1.6"
+                android:text="Android App Development"
+                android:textColor="@color/biege"
+                android:textSize="25dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/webcard"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="20dp">
+
+
+            <TextView
+                android:id="@+id/webtext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:shadowColor="@color/black"
+                android:shadowDx="1.5"
+                android:shadowDy="1.3"
+                android:shadowRadius="1.6"
+                android:text="Web Development"
+                android:textColor="@color/biege"
+                android:textSize="25dp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+<!--    //now 2nd row-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="167dp"
+        android:orientation="horizontal"
+        android:layout_margin="25dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ioscard"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/iostext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/biege"
+            android:shadowColor="@color/black"
+            android:shadowDx="1.5"
+            android:shadowDy="1.3"
+            android:shadowRadius="1.6"
+            android:background="@color/blue"
+            android:text="IOS Development"
+            android:textSize="25dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/blockcard"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:shadowDx="1.5"
+            android:shadowDy="1.3"
+            android:shadowRadius="1.6"
+            android:text="Block Chain Development"
+            android:textColor="@color/biege"
+            android:textSize="25dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+<!--    //now 3rd row -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="167dp"
+        android:layout_margin="25dp"
+        android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/aicard"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="20dp">
+
+
+        <TextView
+            android:id="@+id/aitext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:shadowDx="1.5"
+            android:shadowDy="1.3"
+            android:shadowRadius="1.6"
+            android:text="Artificial Intelligence"
+            android:textColor="@color/biege"
+            android:textSize="25dp" />
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dsacard"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="20dp">
+
+
+            <TextView
+                android:id="@+id/dsatext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:shadowColor="@color/black"
+                android:shadowDx="1.5"
+                android:shadowDy="1.3"
+                android:shadowRadius="1.6"
+                android:text="DSA"
+                android:textColor="@color/biege"
+                android:textSize="25dp" />
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:backgroundTint="@color/biege"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="25dp"
+        />
+
+</LinearLayout>
